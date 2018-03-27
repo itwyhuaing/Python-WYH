@@ -1,5 +1,6 @@
 
 import math
+import string
 
 def move(x,y,step,angle=0):
   nx = x + step * math.cos(angle)
@@ -7,3 +8,5 @@ def move(x,y,step,angle=0):
   return nx,ny
 
 print(move(1,3,1,0))
+name = input()
+print('name = ',name)
